@@ -1,0 +1,35 @@
+.body-container {
+
+  flex-direction: column;
+}
+
+.images-container {
+
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-top: 24px;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.desc {
+  height: auto;
+}
+
+.right-side {
+  margin-left: 30px;
+}
+
+.booking {
+  position: sticky;
+  top: 30px;
+}

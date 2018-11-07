@@ -1,0 +1,26 @@
+{
+  "name": "description-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aircnc/description-proxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aircnc/description-proxy/issues"
+  },
+  "homepage": "https://github.com/Aircnc/description-proxy#readme",
+  "devDependencies": {
+    "express": "^4.16.4",
+    "jquery": "^3.3.1",
+    "webpack": "^4.24.0",
+    "webpack-cli": "^3.1.2"
+  }
+}
