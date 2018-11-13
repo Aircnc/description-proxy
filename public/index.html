@@ -4,7 +4,7 @@
     <meta charset='UTF-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta http-equiv='X-UA-Compatible' content='ie=edge'>
-    <link rel='stylesheet' href='./style.css'>
+<!--     <link rel='stylesheet' href='./style.css'> -->
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/semantic-ui@2.4.0/dist/semantic.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -23,29 +23,31 @@
         <div class="availability" id="alice2">Availability - Alice Part</div>
         <div class="reviews" id="wilson">Reviews - Wilson Part</div>
     </div> -->
-    <div class = 'body-container'>
+    <div id='nav-alice'></div>
+<!--     <div class = 'body-container'> -->
+<!-- 
+      <div class='images-container'> -->
+        <div class="images" id="images">Images - Luan Part</div>
+      <!-- </div> -->
 
-      <div class='images-container'>
-        <div class="images" id="luan">Images - Luan Part</div>
-      </div>
-
-      <div class='content-container'>
+      <!-- <div class='content-container'>
         <div class='left-side'>
           <div class='left1'>
-            <div class="desc" id="blake">Description - Blake Part</div>
+            <div class="desc" id="description">Description - Blake Part</div>
           </div>
           <div class="reviews" id="wilson">Reviews - Wilson Part</div>
         </div>
         <div class='right-side'>
           <div class='booking' id="alice1">Booking - Alice Part</div>
         </div>
-      </div>
+      </div> -->
+      <div id='main-body'></div>
 
-    </div>
-    <script src='http://localhost:3001/aval.bundle.js'></script>
-    <script src='http://localhost:3002/description.bundle.js'></script>
-    <script src='http://localhost:3003/bundle.js'></script>
-    <script src='http://localhost:3004/review.bundle.js'></script>
+<!--     </div> -->
+    <script src='https://s3-us-west-1.amazonaws.com/checkinmodule/aval.bundle.js.gz'></script>
+    <script src='http://3.16.13.208/listings/1/dist/description.bundle.js'></script>
+    <script src='https://s3.us-east-2.amazonaws.com/image-module-bundle.js/bundle.js.gz'></script>
+    <script src='https://s3-us-west-1.amazonaws.com/fec-reviews-bundle/review.bundle.js'></script>
     <script>
       // ReactDOM.render(
       //   React.createElement(MainBody),
